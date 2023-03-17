@@ -1,0 +1,1 @@
+give @s minecraft:warped_fungus_on_a_stick{txd: {id: "brush"}, display: {Name: '{"text":"Brush", "italic": false}'}, Unbreakable: 1b}
