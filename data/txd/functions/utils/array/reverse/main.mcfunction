@@ -3,10 +3,10 @@
 # Reverses an array
 ##########################
 # Inputs:
-# txd:storage root.array.reverse.args.input (T[])
+# txd:storage root.array.reverse.input (T[])
 ##########################
 # Outputs:
-# txd:storage root.raycast.res.output (T[])
+# txd:storage root.array.reverse.output (T[])
 ##########################
 
 
