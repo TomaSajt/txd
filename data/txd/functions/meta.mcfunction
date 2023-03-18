@@ -1,0 +1,1 @@
+#declare storage txd:storage
