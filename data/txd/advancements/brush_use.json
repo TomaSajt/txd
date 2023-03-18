@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:spyglass"
+                    ],
+                    "nbt": "{txd:{id:\"brush\"}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "txd:brushtick"
+    }
+}
