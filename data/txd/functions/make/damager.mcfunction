@@ -1,0 +1,1 @@
+give @s minecraft:warped_fungus_on_a_stick{txd: {id: "damager"}, display: {Name: '{"text":"Damager", "italic": false}'}}
