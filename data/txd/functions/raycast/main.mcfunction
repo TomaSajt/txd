@@ -3,11 +3,11 @@
 # This function casts a ray from the position and rotation of @s
 ##########################
 # Inputs:
-# txd:storage raycast.args.maxSteps (int)
+# txd:storage root.raycast.args.maxSteps (int)
 ##########################
 # Outputs:
-# txd:storage raycast.res.isHit (boolean)
-# txd:storage raycast.res.position ([double, double, double])
+# txd:storage root.raycast.res.isHit (boolean)
+# txd:storage root.raycast.res.position ([double, double, double])
 ##########################
 
 execute anchored eyes run summon armor_stand ^ ^ ^ {Tags: ["raycast.ray"], Marker: 1b, Invisible: 1b}

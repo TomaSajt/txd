@@ -1,0 +1,10 @@
+{
+    "values": [
+        "minecraft:torch",
+        "minecraft:wall_torch",
+        "minecraft:soul_torch",
+        "soul_wall_torch",
+        "redstone_torch",
+        "redstone_wall_torch"
+    ]
+}

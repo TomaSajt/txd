@@ -1,6 +1,6 @@
 ############
 # Context:
-#   @s=player
+#   @s is player
 #   @s's TXDRightClick matches 1..
 #   assumption: @s's SelectedItem is a warped_fungus_on_a_stick
 ############

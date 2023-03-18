@@ -5,7 +5,7 @@
             "conditions": {
                 "item": {
                     "items": [
-                        "minecraft:spyglass"
+                        "minecraft:ender_eye"
                     ],
                     "nbt": "{txd:{id:\"brush\"}}"
                 }
@@ -13,6 +13,6 @@
         }
     },
     "rewards": {
-        "function": "txd:brushtick"
+        "function": "txd:tick/use/eoe/brush"
     }
 }
