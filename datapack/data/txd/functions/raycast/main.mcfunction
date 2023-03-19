@@ -10,6 +10,6 @@
 # txd:storage root.raycast.res.position ([double, double, double])
 ##########################
 
-execute anchored eyes run summon armor_stand ^ ^ ^ {Tags: ["raycast.ray"], Marker: 1b, Invisible: 1b}
-execute rotated as @s as @e[tag=raycast.ray] positioned as @s run tp @s ~ ~ ~ ~ ~
-execute as @e[tag=raycast.ray] at @s run function txd:raycast/ray/cast
+execute anchored eyes run summon marker ^ ^ ^ {Tags: ["raycast.ray"]}
+execute rotated as @s as @e[type=marker,tag=raycast.ray] positioned as @s run tp @s ~ ~ ~ ~ ~
+execute as @e[type=marker,tag=raycast.ray] at @s run function txd:raycast/ray/cast
