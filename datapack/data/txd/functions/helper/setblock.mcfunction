@@ -6,7 +6,7 @@
 # txd:storage root.helper.setblock.position ([double, double, double])
 ##########################
 
-summon marker 0 0 0 {Tags: ["block_setter"]}
-data modify entity @e[type=marker,tag=block_setter,limit=1] Pos set from storage txd:storage root.helper.setblock.position
-execute at @e[type=marker,tag=block_setter] run setblock ~ ~ ~ gold_block
-kill @e[type=marker,tag=block_setter]
+function txd:make/marker/7d00
+data modify entity 0-420-69-0-7d00 Pos set from storage txd:storage root.helper.setblock.position
+execute at 0-420-69-0-7d00 run setblock ~ ~ ~ gold_block
+kill 0-420-69-0-7d00
