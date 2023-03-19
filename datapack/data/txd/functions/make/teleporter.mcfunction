@@ -1,1 +1,1 @@
-give @s minecraft:warped_fungus_on_a_stick{txd: {id: "teleporter"}, display: {Name: '{"text":"Teleporter", "italic": false}'}}
+give @s minecraft:warped_fungus_on_a_stick{txd: {id: "teleporter"}, CustomModelData: 2, display: {Name: '{"text":"Teleporter", "italic": false}'}}
