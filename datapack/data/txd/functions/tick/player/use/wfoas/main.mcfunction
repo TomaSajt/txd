@@ -8,6 +8,6 @@
 # Assert assumptions
 execute unless entity @s[nbt={SelectedItem: {id: "minecraft:warped_fungus_on_a_stick"}}] run say "WARN: I had score in the right click scoreboard, but wasn't holding a warped_fungus_on_a_tick"
 
-execute if entity @s[nbt={SelectedItem: {tag: {txd: {id: "damager"}}}}] run function txd:tick/use/wfoas/damager
-execute if entity @s[nbt={SelectedItem: {tag: {txd: {id: "teleporter"}}}}] run function txd:tick/use/wfoas/teleporter
+execute if entity @s[nbt={SelectedItem: {tag: {txd: {id: "damager"}}}}] run function txd:tick/player/use/wfoas/damager
+execute if entity @s[nbt={SelectedItem: {tag: {txd: {id: "teleporter"}}}}] run function txd:tick/player/use/wfoas/teleporter
 scoreboard players reset @a TXDRightClick
