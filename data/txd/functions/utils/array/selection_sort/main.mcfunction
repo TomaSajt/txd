@@ -1,6 +1,6 @@
 ##########################
 # Description: 
-# Reverses an array
+# Sorts an array
 ##########################
 # Inputs:
 # txd:storage root.array.selection_sort.input (int[])
