@@ -9,4 +9,4 @@
 # txd:storage root.array.selection_sort.output (int[])
 ##########################
 data modify storage txd:storage root.array.selection_sort.output set value []
-function txd:utils/array/selection_sort/rec1
+function txd:array/selection_sort/rec1

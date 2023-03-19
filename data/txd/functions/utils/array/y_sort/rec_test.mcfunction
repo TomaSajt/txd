@@ -1,1 +1,0 @@
-execute if data storage txd:storage root.array.y_sort.input[0] run function txd:utils/array/y_sort/rec

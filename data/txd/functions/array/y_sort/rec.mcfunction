@@ -4,4 +4,4 @@ execute as @e[tag=current,tag=y_sort] run data modify entity @s Pos[1] set from 
 execute as @e[tag=current,tag=y_sort] run data modify entity @s ArmorItems[0].tag.txd.y_sort_data set from storage txd:storage root.array.y_sort.input[0]
 data remove storage txd:storage root.array.y_sort.input[0]
 tag @e[tag=y_sort] remove current
-function txd:utils/array/y_sort/rec_test
+function txd:array/y_sort/rec_test

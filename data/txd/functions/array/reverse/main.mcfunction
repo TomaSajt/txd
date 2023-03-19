@@ -11,4 +11,4 @@
 
 
 data modify storage txd:storage root.array.reverse.output set value []
-function txd:utils/array/reverse/recurse
+function txd:array/reverse/rec_test

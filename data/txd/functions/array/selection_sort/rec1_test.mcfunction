@@ -1,0 +1,1 @@
+execute if data storage txd:storage root.array.selection_sort.input[0] run function txd:array/selection_sort/rec1
