@@ -12,4 +12,4 @@
 
 execute anchored eyes run summon armor_stand ^ ^ ^ {Tags: ["raycast.ray"], Marker: 1b, Invisible: 1b}
 execute rotated as @s as @e[tag=raycast.ray] positioned as @s run tp @s ~ ~ ~ ~ ~
-execute as @e[tag=raycast.ray] at @s run function txd:utils/raycast/ray/cast
+execute as @e[tag=raycast.ray] at @s run function txd:raycast/ray/cast
