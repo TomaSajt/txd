@@ -11,4 +11,4 @@ data remove storage txd:storage root.array.selection_sort.input[0]
 scoreboard players remove cycles TXDGlobal 1
 tellraw @a "cycle"
 
-function txd:utils/array/selection_sort/rec2
+function txd:utils/array/selection_sort/rec2_test

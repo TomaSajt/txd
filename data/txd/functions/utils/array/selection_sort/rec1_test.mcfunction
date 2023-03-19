@@ -1,2 +1,1 @@
-execute store success score is_empty TXDGlobal run data get storage txd:storage root.array.selection_sort.input[0]
-execute if score is_empty TXDGlobal matches 1 run function txd:utils/array/selection_sort/rec1_continue
+execute if data storage txd:storage root.array.selection_sort.input[0] run function txd:utils/array/selection_sort/rec1
