@@ -1,1 +1,0 @@
-execute unless score cycles TXDGlobal matches 0 run function txd:array/selection_sort/rec2
