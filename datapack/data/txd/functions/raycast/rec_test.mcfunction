@@ -1,0 +1,1 @@
+execute if score $ray_rec_countdown TXDGlobal matches 1.. run function txd:raycast/rec
