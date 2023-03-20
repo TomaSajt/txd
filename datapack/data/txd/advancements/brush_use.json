@@ -13,6 +13,6 @@
         }
     },
     "rewards": {
-        "function": "txd:tick/player/use/eoe/brush"
+        "function": "txd:tick/player/use/eoe/brush/main"
     }
 }
