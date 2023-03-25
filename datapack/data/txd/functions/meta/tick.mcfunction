@@ -1,1 +1,1 @@
-execute as @a at @s run function txd:player/tick
+execute as @a at @s run function txd:entity/player/tick
