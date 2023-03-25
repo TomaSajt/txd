@@ -1,1 +1,0 @@
-execute at @s if block ~ ~ ~ #txd:raycast_passable if loaded ^ ^ ^0.04 if score $ray_rec_countdown txd_global matches 1.. run function txd:raycast/rec
