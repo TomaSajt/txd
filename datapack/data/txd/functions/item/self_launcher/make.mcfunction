@@ -1,0 +1,1 @@
+give @s minecraft:bow{txd: {id: "self_launcher"}, CustomModelData: 1, display: {Name: '{"text":"Self Launcher", "italic": false}'}}

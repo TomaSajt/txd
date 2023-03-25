@@ -1,1 +1,1 @@
-execute unless score $cycles TXDGlobal matches 0 run function txd:list/selection_sort/rec2
+execute unless score $cycles txd_global matches 0 run function txd:list/selection_sort/rec2
