@@ -4,5 +4,5 @@ tag @e remove resolve_selector_target
 # gets the substring of the original text starting from pos 135
 # the result would be '"Username"}' however the sign fixes it so that it becomes '{"text":"Username"}'
 data modify block 42077 305 29999986 Text1 set string block 42077 305 29999986 Text1 135
-data modify storage txd:storage root.std.util.resolve_selector.output set from block 42077 305 29999986 Text1
+data modify storage txd:storage root.std.text.resolve_selector.output set from block 42077 305 29999986 Text1
 
