@@ -1,0 +1,44 @@
+{
+    "values": [
+
+        "armor_stand",
+        "area_effect_cloud",
+
+        "lightning_bolt",
+
+        "experience_orb",
+        "item",
+        
+        "falling_block",
+
+        "eye_of_ender",
+        "firework_rocket",
+        "fishing_bobber",
+
+        "leash_knot",
+        "end_crystal",
+
+        "llama_spit",
+        "shulker_bullet",
+        "wither_skull",
+        "evoker_fangs",
+
+
+        "egg",
+        "snowball",
+        "ender_pearl",
+        "arrow",
+        "spectral_arrow",
+        "trident",
+        "potion",
+        "experience_bottle",
+
+
+        
+        "#txd:wall_hangable",
+        "#txd:dev_entities",
+        "#txd:fireballs",
+        "#txd:boats",
+        "#txd:minecarts"
+    ]
+}
