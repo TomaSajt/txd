@@ -11,6 +11,11 @@ execute as 0-420-69-0-7d00 if entity @s[nbt={data: {tag: {txd: {id: "launcher_bo
 #declare tag homing_arrow
 execute as 0-420-69-0-7d00 if entity @s[nbt={data: {tag: {txd: {id: "smart_bow"}}}}] run data modify storage txd:storage root.temp set value "homing_arrow"
 
+
+#declare tag explosive_arrow
+execute as 0-420-69-0-7d00 if entity @s[nbt={data: {tag: {txd: {id: "explosive_bow"}}}}] run data modify storage txd:storage root.temp set value "explosive_arrow"
+
+
 #declare tag txd_arrow
 execute if data storage txd:storage root.temp run data modify entity @s Tags append from storage txd:storage root.temp
 
