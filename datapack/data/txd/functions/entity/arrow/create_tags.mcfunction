@@ -1,6 +1,8 @@
 function txd:marker/make/7d00
+
 execute on origin run function txd:std/item/get_mainhand
-data modify entity 0-420-69-0-7d00 data set from storage txd:storage root.std.item.mainhand
+# only copy if origin exists
+execute on origin run data modify entity 0-420-69-0-7d00 data set from storage txd:storage root.std.item.mainhand
 
 data remove storage txd:storage root.temp
 
