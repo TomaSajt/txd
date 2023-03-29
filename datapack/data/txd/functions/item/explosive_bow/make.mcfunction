@@ -1,1 +1,0 @@
-give @s minecraft:bow{txd: {id: "explosive_bow"}, CustomModelData: 1, display: {Name: '{"text":"Explosive Bow", "italic": false}'}}

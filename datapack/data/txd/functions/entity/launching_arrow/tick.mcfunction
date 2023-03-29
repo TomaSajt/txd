@@ -1,4 +1,4 @@
-execute if entity @s[tag=!been_ridden,tag=txd_original_arrow] run function txd:entity/launching_arrow/ride
+execute if entity @s[tag=!txd_been_ridden,tag=txd_original_arrow] run function txd:entity/launching_arrow/ride
 
 
 # Arrows are dumb: they have their rotations reversed, so this spawns a temporary entity with the opposite rotations

@@ -1,2 +1,2 @@
-summon creeper ~ ~ ~ {Fuse: 0, ExplosionRadius: 2, Invulnerable: 1b}
+summon tnt ~ ~ ~ {Fuse: 0}
 kill @s
